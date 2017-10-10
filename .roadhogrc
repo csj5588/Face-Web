@@ -1,0 +1,25 @@
+{
+  "entry": "src/index.js",
+  "publicPath": "./",
+  "env": {
+    "development": {
+      "extraBabelPlugins": [
+        "dva-hmr",
+        "transform-runtime"
+      ]
+    },
+    "production": {
+      "extraBabelPlugins": [
+        "transform-runtime"
+      ]
+    }
+  },
+  "proxy": {
+    "/mini": {
+      // "target": "http://172.16.49.224:61001/",
+      "target": "http://192.168.11.101:61001/",
+      "changeOrigin": true
+      // "pathRewrite": { "^/mini" : "" }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add babel-plugin-import --save-dev
+
+PATH: 
+  D:\工作软件\ImageMagick-7.0.1-Q16;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\VisualSVN Server\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;F:\mysql\bin;F:\newsql\bin;C:\Program Files\Git\cmd;D:\工作软件\tomcat\apache-tomcat-8.5.8\bin\BIN;C:\Program Files (x86)\Yarn\bin;C:\Program Files (x86)\jdk1.8.0\bin;C:\Program Files (x86)\jdk1.8.0\jre\bin;D:\工作软件\svn\bin;C:\Users\CSJ\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\jdk1.8.0bin;C:\Users\CSJ\AppData\Local\Microsoft\WindowsApps;D:\工作软件\tomcat\apache-tomcat-8.5.8\bin;D:\工作软件\tomcat\apache-tomcat-8.5.8\lib;D:\工作软件\Microsoft VS Code\bin;C:\Users\CSJ\AppData\Roaming\npm;C:\Users\CSJ\AppData\Local\Yarn\.bin;C:\Users\CSJ\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  0.19.1
+
+Node version: 
+  8.4.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "private": true,
+    "scripts": {
+      "start": "roadhog server",
+      "build": "roadhog build",
+      "lint": "eslint --ext .js src test",
+      "precommit": "npm run lint"
+    },
+    "engines": {
+      "install-node": "6.9.2"
+    },
+    "dependencies": {
+      "antd-mobile": "^1.6.9",
+      "babel-runtime": "^6.9.2",
+      "dva": "^1.2.1",
+      "react": "^15.4.0",
+      "react-dom": "^15.4.0"
+    },
+    "devDependencies": {
+      "babel-eslint": "^7.1.1",
+      "babel-plugin-dva-hmr": "^0.3.2",
+      "babel-plugin-transform-runtime": "^6.9.0",
+      "eslint": "^3.12.2",
+      "eslint-config-airbnb": "^13.0.0",
+      "eslint-plugin-import": "^2.2.0",
+      "eslint-plugin-jsx-a11y": "^2.2.3",
+      "eslint-plugin-react": "^6.8.0",
+      "expect": "^1.20.2",
+      "husky": "^0.12.0",
+      "redbox-react": "^1.3.2",
+      "roadhog": "^0.5.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EEXIST: file already exists, mkdir 'D:\GitlabNew\hifondMini\node_modules\eslint-import-resolver-node'
