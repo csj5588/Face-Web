@@ -3,8 +3,7 @@
   "scripts": {
     "start": "roadhog server",
     "build": "roadhog build",
-    "lint": "eslint --ext .js src test",
-    "precommit": "npm run lint"
+    "lint": "eslint --ext .js src test"
   },
   "engines": {
     "install-node": "6.9.2"
@@ -12,6 +11,8 @@
   "theme": "./theme.config.js",
   "dependencies": {
     "babel-runtime": "^6.9.2",
+    "concat-stream": "^2.0.0",
+    "dat.gui": "^0.6.1",
     "dva": "^1.2.1",
     "rc-form": "^1.3.0",
     "react": "^15.6.1",
