@@ -1,4 +1,4 @@
-## dva开发脚手架
+## web端人脸识别组件
 
-> yarn
-> npm start
+> cnpm i
+> cnpm start
