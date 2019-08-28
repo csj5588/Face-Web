@@ -1,12 +1,15 @@
 import React from 'react';
-import { connect } from 'dva';
-
+import {
+  TITLE,
+  REAL_TIME_SCREENSHOTS,
+  REAL_TIME_BASE64,
+} from './contants';
 import VideoBox from './video';
 
 import styles from './Login.less';
 
 /**
- * demo
+ * container
  */
 class Login extends React.Component {
   state = {
@@ -56,17 +59,23 @@ class Login extends React.Component {
     return (
       <div className={styles.root}>
         <div className={styles.title}>
-          <p>人脸登录</p>
+          <p>
+            {TITLE}
+          </p>
         </div>
 
         <VideoBox />
 
         <div className={styles.picture}>
-          <div className={styles.title}>实时截图</div>
+          <div className={styles.title}>
+            {REAL_TIME_SCREENSHOTS}
+          </div>
           <div className={styles.imgBox}>
             <img src={currentBase64} alt="" />
           </div>
-          <div className={styles.title}>实时base64</div>
+          <div className={styles.title}>
+            {REAL_TIME_BASE64}
+          </div>
           <p>{currentBase64}</p>
         </div>
       </div>
@@ -74,4 +83,4 @@ class Login extends React.Component {
   }
 }
 
-export default connect()(Login);
+export default Login;

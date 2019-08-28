@@ -3,10 +3,6 @@ import React from 'react';
 import styles from './index.less';
 
 class Video extends React.Component {
-  // shouldComponentUpdate() {
-  //   return false;
-  // }
-
   render() {
     return (
       <div className={styles.container}>

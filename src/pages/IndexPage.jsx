@@ -3,7 +3,7 @@ import { connect } from 'dva';
 import styles from './IndexPage.css';
 
 /**
- * 容器
+ * container
  */
 class IndexPage extends React.Component {
   render() {
