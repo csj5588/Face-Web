@@ -18,13 +18,13 @@ class Login extends React.Component {
   }
 
   initFace = () => {
-    var video = document.getElementById('video');
-    var canvas = document.getElementById('canvas');
-    var canvas2 = document.getElementById('canvas2');
-    var context = canvas.getContext('2d');
-    var context2 = canvas2.getContext('2d');
+    const video = document.getElementById('video');
+    const canvas = document.getElementById('canvas');       
+    const canvas2 = document.getElementById('canvas2');
+    const context = canvas.getContext('2d');
+    const context2 = canvas2.getContext('2d');
 
-    var tracker = new tracking.ObjectTracker('face');
+    const tracker = new tracking.ObjectTracker('face');
     tracker.setInitialScale(4);
     tracker.setStepSize(1);
     tracker.setEdgesDensity(0.1);
@@ -44,8 +44,8 @@ class Login extends React.Component {
       });
 
       context2.drawImage(video, 0, 0, 200, 150);
-      var snapData = canvas2.toDataURL('image/png');
-      var imgSrc = "data:image/png;" + snapData;
+      const snapData = canvas2.toDataURL('image/png');
+      const imgSrc = "data:image/png;" + snapData;
       this.setState({ currentBase64: imgSrc });
     });
   }
@@ -67,7 +67,7 @@ class Login extends React.Component {
             <img src={currentBase64} alt="" />
           </div>
           <div className={styles.title}>实时base64</div>
-          <p>{currentBase64}</p> 
+          <p>{currentBase64}</p>
         </div>
       </div>
     );
