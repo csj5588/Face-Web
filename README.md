@@ -41,4 +41,6 @@ import { FaceWeb } from 'face-web';
 | className  | String | cover style |
 | debounceTime  | Number | output rate |
 
+### Demo Gif
+
 ![](https://user-gold-cdn.xitu.io/2019/8/28/16cd63c979362b67?w=373&h=811&f=gif&s=4081843)
