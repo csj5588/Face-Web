@@ -33,7 +33,7 @@ import { FaceWeb } from 'face-web';
 />
 ```
 
-### Example
+### API
 
 |  field   | type  | remark |
 |  ----  | ----  | ---- |
