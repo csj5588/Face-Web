@@ -35,7 +35,7 @@ import { FaceWeb } from 'face-web';
 
 ### Example
 
-|  field   | type  | remark ｜
+|  field   | type  | remark |
 |  ----  | ----  | ---- |
 | onChange  | func | cb base64 |
 | className  | String | cover style |
