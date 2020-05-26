@@ -19,7 +19,7 @@ face-web It is a tool that enables web/pc browser cameras to capture real-time f
 ```
 
 ### NPM
-you can also use npm-package
+you can also use [npm-package](https://www.npmjs.com/package/face-web)
 
 ```
 npm install face-web --save
